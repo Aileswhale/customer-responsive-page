@@ -691,6 +691,7 @@ footer{
     
     .work-section-right{
         width: 100%;
+        height: fit-content;
     }
     .work-section-left h1 {
         font-size: 50px;
