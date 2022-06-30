@@ -201,18 +201,18 @@ html{
 .section-4{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: ;
+    
 
 
 }
 .section-4-left , .section-4-right{
-    width: 45%;
+    width: 35%;
 }
 .section-4-left-image{
     margin-right: 10px;
 }
 .section-4-right h3{
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 700;
     color: #1E1B1B;
     padding-bottom: 20px;
