@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
-
+.hide{
+    display: none;
+}
 html{
     width: 100%;
     height: 100%;
@@ -26,6 +28,8 @@ html{
     height: 60px;
     padding-top: 20px;
 }
+
+
 .main-nav li{
     list-style: none;
     margin: 0 20px;
@@ -660,7 +664,77 @@ footer{
     color: #939191;
 }
 
-@media(max-width :426px){
+@media only screen and (max-width :426px){
+    .mainBar {
+            border: 3px solid rgb(4, 83, 4);
+            align-self: center;
+        }
+    
+        .bar {
+            border: 1px solid rgb(42, 82, 42);
+            padding: 0 8px;
+            margin: 4px;
+            background-color: rgb(42, 82, 42);
+            transition: all 2s ease;
+        }
+    
+        .navSection {
+            height: calc(100vh - 41%);
+            background-color: rgba(128, 128, 128, 0.6);
+            width: 20%;
+            position: absolute;
+            border-radius: 4px;
+            right: 0;
+            height: 0;
+            overflow: hidden;
+            transition: all 2s ease;
+    
+        }
+    
+        .newBar {
+            height: 400px;
+        }
+    
+        .close {
+            display: none;
+        }
+    
+        .closeBtn {
+            position: relative;
+            left: 90%;
+            padding: 2px;
+            display: inline-block;
+            color: red;
+            cursor: pointer;
+        }
+    
+        ul {
+            list-style: none;
+            transition: all 2s ease;
+    
+        }
+    
+        .links {
+            display: block;
+            text-decoration: none;
+            text-transform: capitalize;
+            color: rgb(133, 210, 133);
+            cursor: pointer;
+            transition: all 1s ease-out;
+            padding: 2rem 1rem;
+            font-weight: bolder;
+    
+    
+    
+        }
+    
+        .links:hover {
+            padding-left: 1.5rem;
+            background-color: rgb(91, 91, 91);
+        }
+                .hidden {
+                    display: none;
+                }
     .main-nav{
         width: 95%;
     
@@ -894,7 +968,11 @@ footer{
 }
 
 
-@media(min-width: 481px)and(max-width :769px) {
+@media only screen and (min-width: 481px) and (max-width :768px) {
+
+    .hide{
+        display: none;
+    }
     .section-1-above{
         min-height: fit-content;
     }

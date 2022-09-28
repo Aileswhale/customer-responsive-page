@@ -310,7 +310,12 @@ footer{
     color: #939191;
 }
 
-
+@media screen and (max-width: 480px) {
+    .bar{
+        
+    }
+    
+}
 
 
    
